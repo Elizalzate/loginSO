@@ -13,7 +13,11 @@
         }
         else 
         {
-            echo "No se pudo.";
+            header('Location: index.html');
+            echo'<script type="text/javascript">
+            alert("Credenciales incorrectas");
+            window.location.href="index.html";
+            </script>';
         }
     }
     // $Result = ldap_search($ldapconn, "OU=IT,DC="Domain",DC=corp", "(samaccountname=$ldaprdn)", array("dn"));
