@@ -12,9 +12,12 @@
         }
         else 
         {
-            echo'<script type="text/javascript">
-            credIncorrectas();
-            window.location= "index.html"
+            echo'
+            <script type="text/javascript">
+                window.location= "index.html"
+                document.addEventListener("DOMContentLoaded", function(event) {
+                    credIncorrectas();
+                });
             </script>';
         }
     }
