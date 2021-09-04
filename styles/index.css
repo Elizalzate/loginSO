@@ -9,11 +9,11 @@ body{
     url("../assets/bg2.jpg");
     background-size: cover;
     color: white;
-    padding: 20px;
+    padding: 5%
 }
 #login{
     width: 40%;
-    height: 85vh;
+    height: 85%;
     display: block;
     margin: auto;
     background-color: rgba(0,0,0,0.4);
