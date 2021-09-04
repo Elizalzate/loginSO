@@ -9,11 +9,10 @@
         if ($ldapbind) 
         {
             echo "nitido";
-            header('success.html');
+            header('Location: success.html');
         }
         else 
         {
-            echo $ldapbind.$ldapuser.$ldappass;
             echo "No se pudo.";
         }
     }
