@@ -13,11 +13,7 @@
         else 
         {
             echo'<script type="text/javascript">
-            Swal.fire({
-                icon: "error",
-                title: "Error",
-                text: "¡Credenciales incorrectas!",
-              })
+            credIncorrectas();
             </script>';
         }
     }
