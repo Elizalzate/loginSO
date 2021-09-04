@@ -12,7 +12,7 @@
         }
         else 
         {
-            echo "No se pudo.;
+            echo "No se pudo.";
         }
     }
     $Result = ldap_search($ldapconn, "OU=IT,DC="Domain",DC=corp", "(samaccountname=$ldaprdn)", array("dn"));
