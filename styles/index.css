@@ -10,20 +10,22 @@ body{
     background-size: cover;
     color: white;
     padding: 20px;
- }
+}
 #login{
-    width: 60%;
-    height: 30%;
+    width: 40%;
+    height: 90vh;
     display: block;
     margin: auto;
     background-color: rgba(0,0,0,0.4);
     border-radius: 15px;
-    padding: 6%;
+    padding: 2%;
 }
 #login-icon{
-    width: 40%;
+    width: 35%;
     display: block;    
     margin: auto;
+    margin-top: 1vh;
+    padding: 2%;
 }
 #divCampos{
     margin-top: 20px;
@@ -35,18 +37,26 @@ body{
     text-align: center;
 }
 .formCampos{
-    background-color: rgba(255,255,255, 0.85);
-    width: 100%;
-    border-radius: 30px;
-    height: 50px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255,255,255, 0.7);
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    height: 45px;
     font-size: 30px;
     border: 0;
-    padding-right: 30px;
+}
+.formCampos:focus{
+    outline:none;
+    border: 3px solid rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255, 0.9);
 }
 #btnIngresar{
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color:#300797;
     border-color: #300797;
     border-radius: 20px;
@@ -54,7 +64,7 @@ body{
 #btnIngresar:hover{
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #270873;
     border-color: #270873;
     border-radius: 20px;
