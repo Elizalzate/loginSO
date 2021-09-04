@@ -14,6 +14,7 @@
         {
             echo'<script type="text/javascript">
             credIncorrectas();
+            window.location= "index.html"
             </script>';
         }
     }

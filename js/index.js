@@ -4,5 +4,4 @@ const credIncorrectas = () =>{
         title: "Error",
         text: "¡Credenciales incorrectas!",
     });  
-    window.location.href="index.html";
 };
