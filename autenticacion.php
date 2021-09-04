@@ -12,7 +12,6 @@
         }
         else 
         {
-            header('Location: index.html');
             echo'<script type="text/javascript">
             Swal.fire({
                 icon: "error",
