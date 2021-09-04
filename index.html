@@ -15,16 +15,18 @@
 </head>
 <body>
     <div id="container">
-        <div id="login">
-            <img id="login-icon" src="assets/login-icon.png" alt="login-icon">
-            <div id="divCampos">
-                <label for="usuario" class="formTitulos">Usuario</label>
-                <input type="text" class="formCampos" id="usuario">
-                <label for="password" class="formTitulos">Contraseña</label>
-                <input type="password" class="formCampos" id="password">
-                <button type="submit" class="btn btn-success btn-lg" id="btnIngresar"> INGRESAR </button>
+        <form action="autenticacion.php" method="POST">
+            <div id="login">
+                <img id="login-icon" src="assets/login-icon.png" alt="login-icon">
+                <div id="divCampos">
+                    <label for="usuario" class="formTitulos">Usuario</label>
+                    <input type="text" class="formCampos" id="usuario">
+                    <label for="password" class="formTitulos">Contraseña</label>
+                    <input type="password" class="formCampos" id="password">
+                    <button type="submit" class="btn btn-success btn-lg" id="btnIngresar"> INGRESAR </button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
     
 </body>
