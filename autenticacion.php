@@ -1,7 +1,7 @@
 <?php
     $ldapuser  = $_POST["usuario"];
     $ldappass = $_POST["password"];
-    $ldapconn = ldap_connect("ldap://dominio.so") or die("No fue posible ingresar.");
+    $ldapconn = ldap_connect("ldap://dominio.so") or die("No fue posible conectarse al dominio.");
 
     if ($ldapconn) 
     {
@@ -15,9 +15,7 @@
             echo'
             <script type="text/javascript">
                 window.location= "index.html"
-                document.addEventListener("DOMContentLoaded", function(event) {
-                    credIncorrectas();
-                });
+                alert("¡Credenciales incorrectas!");
             </script>';
         }
     }
