@@ -10,7 +10,7 @@ ingresar.addEventListener("click",
             text: "No pueden haber campos vacíos",
         });  
     }
-    if( document.getElementById('password').value.length < 8){
+    else if( document.getElementById('password').value.length < 8){
         e.preventDefault();
         Swal.fire({
             icon: "error",
